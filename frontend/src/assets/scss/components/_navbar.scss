@@ -1,0 +1,57 @@
+@import '../helpers/globals';
+
+.nav-navbar {
+	background-color: $primary;
+	height: 60px; 
+	border-bottom: 1px solid $light-grey;
+}
+
+.navbar-search-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 7px;
+}
+
+.header-logo {
+	height: 37px;
+	margin-right: 10px;
+	cursor: pointer;
+    margin-top: 4px;
+}
+
+input::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0.25);
+}
+
+.search-input-container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border-radius: 2px;
+	background-color: $light-grey;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-input-container {
+	svg {
+		cursor: pointer;
+	}
+
+	.search-input {
+		width: 100%;
+		height: 37px;
+		padding-left: 15px;
+		font-size: 1em;
+		border: none;
+		border-radius: 2px;
+		outline: none;
+	}
+
+	.search-icon {
+		display: flex;
+		font-size: 26px;
+		color: rgba(0, 0, 0, 0.4);
+		padding: 0 10px;
+	}
+} 

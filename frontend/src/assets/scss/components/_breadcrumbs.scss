@@ -1,0 +1,80 @@
+@import '../helpers/globals';
+
+.main-container {
+  .text-interest {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .breadcrumbs-row {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ol,
+    ul {
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .breadcrumbs {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .btn-volver {
+        color: $grey;
+        text-decoration: none;
+        margin-right: 12px;
+        cursor: pointer;
+        padding-right: 12px;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+        &:hover {
+          color: $dark-blue;
+        }
+      }
+
+      span {
+        color: $grey;
+        cursor: pointer;
+
+        &:hover {
+          color: $dark-blue;
+        }
+      }
+
+      .breadcrumbs-arrow-right {
+        color: $grey;
+        margin-top: 3px;
+      }
+    }
+
+    .share-or-sell {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        color: $blue;
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover {
+          color: $dark-blue;
+        }
+
+        &:first-child {
+          margin-right: 12px;
+          cursor: pointer;
+          padding-right: 12px;
+          border-right: 1px solid rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}

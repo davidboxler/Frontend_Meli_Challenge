@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../../fonts/proximanova-light.woff2");
+    font-weight: 100;
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url("../../fonts/proximanova-regular.woff2");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url("../../fonts/proximanova-semibold.woff2");
+    font-weight: 500;
+  }
+
+$primary: #fee600;
+$black: #111111;
+$dark: #333333;
+$dark-grey: #666666;
+$grey: #999999;
+$light-grey: #eeeeee;
+$white: white;
+$blue: #3483fa;
+$dark-blue: #2968c8;
+$green: #00a650;
