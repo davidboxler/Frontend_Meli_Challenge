@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/Logo_ML.png";
-import search from "../../assets/ic_Search.png";
+import logo from "../../assets/images/Logo_ML.png";
+import search from "../../assets/images/ic_Search.png";
 
 const Navbar = () => {
   const navigate = useNavigate();

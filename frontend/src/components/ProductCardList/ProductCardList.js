@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Free_Shippin from "../../assets/ic_shipping.png";
-import Blank_Picture from "../../assets/platzhalter.png"
+import Free_Shippin from "../../assets/images/ic_shipping.png";
+import Blank_Picture from "../../assets/images/platzhalter.png";
 import { formatAsCurrency } from "../../utils/helper";
 
 export const ProductCard = (props) => {
